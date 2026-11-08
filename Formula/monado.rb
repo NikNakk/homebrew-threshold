@@ -2,8 +2,9 @@ class Monado < Formula
   desc "OpenXR runtime for macOS with PlayStation VR2 support (Threshold build)"
   homepage "https://github.com/NikNakk/monado"
   url "https://github.com/NikNakk/monado.git",
-      revision: "60b7690763e338145cc23818d3d951beda949294"
-  version "25.1.0-2497-g60b769076"
+      branch:   "build/ceres-optional-constellation",
+      revision: "a185d42d56ffdb004d3e2a1bb6d149d3c487e58b"
+  version "25.1.0-2500-ga185d42d5"
   license "BSL-1.0"
   head "https://github.com/NikNakk/monado.git", branch: "build/ceres-optional-constellation"
 
