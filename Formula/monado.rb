@@ -21,7 +21,7 @@ class Monado < Formula
   depends_on :macos
   # A Vulkan driver for the compositor when KosmicKrisp is not selected.
   depends_on "molten-vk"
-  depends_on "sdl2"
+  depends_on "sdl2-compat"
   depends_on "vulkan-loader"
 
   def install
